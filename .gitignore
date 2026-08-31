@@ -1,0 +1,11 @@
+# Obsidian local workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/*/node_modules/
+.obsidian/plugins/*/.git/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.bak
