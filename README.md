@@ -3,7 +3,14 @@
 Obsidian vault, ведущийся как LLM-Wiki: LLM-агент превращает сырые источники
 в связанную, поддерживаемую базу знаний. Основа — паттерн LLM Wiki (Karpathy).
 
-## Структура
+## Navigation
+
+- [[WIKI-LLM]] — главный архитектурный документ
+- [[AGENTS]] — правила для AI-агента
+- [[wiki/index]] — карта базы знаний
+- [[projects/index]] — проекты и документация
+
+## Structure
 
 - `raw/` — неизменяемые источники истины (статьи, web-clippings, pdf, ссылки).
 - `wiki/` — обработанные страницы: концепты, саммари, синтезы, source notes.
@@ -27,20 +34,22 @@ Obsidian vault, ведущийся как LLM-Wiki: LLM-агент превра�
    Агент может читать эту документацию через AI-Wiki MCP / WebObsidian
    для принятия архитектурных решений и кристаллизации знаний в `wiki/`.
 
-## Требования
+## Requirements
 
 - Obsidian (для ручного просмотра/редактирования) или WebObsidian (web).
 - Git для версионирования vault.
 - Опционально: Doc-API + project-update для синхронизации проектной документации.
 
-## Секреты
+## Secrets
 
 - Никаких токенов, паролей и API-ключей в репозитории.
 - Локальное состояние Obsidian (workspace, cache) не коммитится (.gitignore).
 
-## Связанные репозитории
+## Related repositories
 
 - `AI-Wiki-MCP` — MCP-сервер для чтения/записи vault через WebObsidian.
 - `WebObsidian` — веб-интерфейс + Agent API для vault.
 - `Doc-API` — синхронизация проектной документации.
 - `project-update` — универсальная команда `project-update`.
+
+

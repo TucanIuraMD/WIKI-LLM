@@ -30,3 +30,13 @@
 ## Открытые вопросы
 
 - Будем ли вводить lifecycle-поля в frontmatter каждой wiki-страницы: `confidence`, `last_verified`, `sources`, `relationships`?
+
+
+---
+
+## Навигация по vault
+
+- [[WIKI-LLM]] — главный архитектурный документ и входная точка
+- [[README]] — общее описание vault
+- [[AGENTS]] — правила для LLM-агента
+- [[projects/index]] — навигация по проектам

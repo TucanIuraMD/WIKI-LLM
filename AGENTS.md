@@ -114,3 +114,5 @@ Schema-файл для LLM-агента, который поддерживает
 - [[LLM Wiki Lifecycle]] — confidence, freshness, supersession, typed relationships.
 - [[Source Notes]] — реестр ingested источников.
 - [[index]] — карта vault.
+- [[wiki/index]] — карта базы знаний.
+- [[WIKI-LLM]] — главный архитектурный документ и входная точка.
