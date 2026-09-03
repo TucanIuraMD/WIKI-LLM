@@ -17,3 +17,32 @@ Thumbs.db
 *.tmp
 *.swp
 *.bak
+
+# --- Sensitive / private materials (never commit) ---
+# databases, dumps, backups
+db/
+*.sql
+*.dump
+*.binlog
+backup_*/
+backups/
+
+# secrets, keys, credentials
+*.key
+*.pem
+*.hex
+*.pfx
+*.p12
+.env
+credentials*
+*secret*
+*credential*
+
+# archives / original sources / audit material
+*.zip
+*.rar
+*.7z
+*.tar.gz
+_audit/
+audit/
+internal/
